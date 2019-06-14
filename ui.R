@@ -13,6 +13,9 @@ is a tool to help evaluate biomarkers for prognostic enrichment of clinical tria
 <p> <h4> <strong> BioPET </strong>
 is also available as a package for the R Statistical Computing Platform. The R package offers extended functionality, allowing investigators to analyze their own biomarker data rather than relying on prototypical ROC curves.
 </h4> </p>
+<p> <h4> 
+We describe this tool in more detail in the <i> Clinical Trials </i> paper <q> Evaluating biomarkers for prognostic enrichment of clinical trials </q>, which is available <a href='https://www.ncbi.nlm.nih.gov/pubmed/?term=28795578'>here</a>.
+</h4> </p>
 <br> <hr>")
                  )
             ),
@@ -52,11 +55,11 @@ is also available as a package for the R Statistical Computing Platform. The R p
                         br(),
                         HTML("<p> <h5> <strong> Sample size </strong> </p> <p> The sample size required for a clinical trial enrolling only patients who are biomarker-positive. </h5> </p> <br>
                                   <p> <h5> <strong> Number needed to screen (NNS) </strong> </p> <p> The estimated number of patients who need to be screened to identify one patient eligible for the trial. </h5> </p> <br>
-                                   <p> <h5> <strong> “Event rate among biomarker-positive patients </strong> </p> <p> The estimated event rate among the trial participants if the biomarker were used for prognostic enrichment. </h5> </p> <br>
+                                   <p> <h5> <strong> Event rate among biomarker-positive patients </strong> </p> <p> The estimated event rate among the trial participants if the biomarker were used for prognostic enrichment. </h5> </p> <br>
                                    <p> <h5> <strong> Total screened </strong> </p> <p> The estimated total number of individuals who must be screened to enroll the prognostically enriched trial. </h5> </p> <br>
                                    <p> <h5> <strong> Total cost </strong> </p> <p>  The estimated total cost of running the trial if the biomarker were used for prognostic enrichment. </h5> </p> <br> <br>"),
 h5(strong("Acknowledgement"), align="center"),
-HTML("<p> This work was supported by NIH grant R01085757 (<a href='http://patr.yale.edu'>http://patr.yale.edu</a>) </h4> </p>")
+HTML("<p> This work was supported by NIH grant R01085757 (<a href='http://tribe.jhmi.edu/'>http://tribe.jhmi.edu/</a>) </h4> </p>")
                         )
              )
         ),
