@@ -46,7 +46,7 @@ We describe this tool in more detail in the <i> Clinical Trials </i> paper <q> E
                         h3(strong("Cost Information"), align="center"),
                         h4("(optional)", align="center"),
                         HTML("<p> <h5> <strong> Cost of screening a patient to determine trial eligibility </strong> </p> <p> For example the cost of measuring the biomarker to determine patient eligibility for the trial may be $100. </h5> </p> <br>
-                                    <p> <h5> <strong> “Cost of running a patient through the trial”  </strong> </p> <p> For example, the cost of enrolling and retaining a patient in a trial may be $1000.</h5> </p>")
+                                    <p> <h5> <strong> Cost of running a patient through the trial  </strong> </p> <p> For example, the cost of enrolling and retaining a patient in a trial may be $1000.</h5> </p>")
                  ),
                  column(width=3, offset=0,
                         br(),
